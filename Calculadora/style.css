@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  display: block;
+  margin: 0.5rem;
+  padding: 0.2rem;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px black solid;
+  padding: 0.2rem;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+#numeros {
+  width: 12rem;
+  height: 12.5rem;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  padding: 0;
+  margin: 0;
+}
+.cero{
+  width: 9.4rem;
+}
